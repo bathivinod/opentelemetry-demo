@@ -63,10 +63,33 @@ the release.
   ([#2331](https://github.com/open-telemetry/opentelemetry-demo/pull/2331))
 * [cart] Upgrade OpenFeature and add new telemetry Hooks
   ([#2332](https://github.com/open-telemetry/opentelemetry-demo/pull/2332))
+* [otel-collector] Add support for OpenSearch dynamic index
+  ([#2363](https://github.com/open-telemetry/opentelemetry-demo/pull/2363))
 * [checkout] Add OTel grpc Logs to checkout
   ([#2336](https://github.com/open-telemetry/opentelemetry-demo/pull/2336))
+* [prometheus] Activate `keep_identifying_resource_attributes` and promote
+  Kubernetes resource attributes as metric labels
+  ([#2340](https://github.com/open-telemetry/opentelemetry-demo/pull/2340))
+* [grafana] Add APM dashboard including service metrics, traces, and logs
+  ([#2340](https://github.com/open-telemetry/opentelemetry-demo/pull/2340))
 * [payment] Send logs to otel-collector via pino-opentelemetry-transport
   ([#2352]((https://github.com/open-telemetry/opentelemetry-demo/pull/2352)))
+* [image-provider] Update to latest version of nginx and alpine
+  ([#2369](https://github.com/open-telemetry/opentelemetry-demo/pull/2369))
+* [load-generator] Fix Playwright wait until load state error
+  ([#2374](https://github.com/open-telemetry/opentelemetry-demo/pull/2374))
+* [grafana] Update OpenSearch logs index in APM Dashboards
+  ([#2419](https://github.com/open-telemetry/opentelemetry-demo/pull/2419))
+* [flagd] Bump Flagd to v0.12.8 and get compliant `http.Server.request.duration`
+  OTel metrics that can be used in the APM dashboard
+  ([#2392](https://github.com/open-telemetry/opentelemetry-demo/pull/2392))
+* [cart] Enable automatic generation of `service.instance.id`
+  ([#2402](https://github.com/open-telemetry/opentelemetry-demo/pull/2402))
+* [prometheus /grafana] Add alerting demo through the `CartAddItemHighLatency`
+  alert rule
+  [#2401](https://github.com/open-telemetry/opentelemetry-demo/pull/2401)
+* [prometheus / grafana] Add Linux monitoring dashboard
+  [#2395](https://github.com/open-telemetry/opentelemetry-demo/pull/2395)
 
 ## 2.0.2
 

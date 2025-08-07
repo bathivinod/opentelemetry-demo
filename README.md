@@ -58,17 +58,18 @@ keeping it up to date for you.
 
 |                           |                |                                  |
 |---------------------------|----------------|----------------------------------|
-| [AlibabaCloud LogService] | [Google Cloud] |  [Oracle]                        |
-| [AppDynamics]             | [Grafana Labs] |  [Sentry]                        |
-| [Aspecto]                 | [Guance]       |  [ServiceNow Cloud Observability]|
-| [Axiom]                   | [Honeycomb.io] |  [SigNoz]                        |
-| [Axoflow]                 | [Instana]      |  [Splunk]                        |
-| [Azure Data Explorer]     | [Kloudfuse]    |  [Sumo Logic]                    |
-| [Coralogix]               | [Last9]        |  [TelemetryHub]                  |
-| [Dash0]                   | [Liatrio]      |  [Teletrace]                     |
-| [Datadog]                 | [Logz.io]      |  [Tracetest]                     |
-| [Dynatrace]               | [New Relic]    |  [Uptrace]                       |
-| [Elastic]                 | [OpenSearch]   |                                  |
+| [AlibabaCloud LogService] | [Elastic]      | [Oracle]                         |
+| [AppDynamics]             | [Google Cloud] | [Parseable]                      |
+| [Aspecto]                 | [Grafana Labs] | [Sentry]                         |
+| [Axiom]                   | [Guance]       | [ServiceNow Cloud Observability] |
+| [Axoflow]                 | [Honeycomb.io] | [SigNoz]                         |
+| [Azure Data Explorer]     | [Instana]      | [Splunk]                         |
+| [Causely]                 | [Kloudfuse]    | [Sumo Logic]                     |
+| [ClickStack]              | [Last9]        | [TelemetryHub]                   |
+| [Coralogix]               | [Liatrio]      | [Teletrace]                      |
+| [Dash0]                   | [Logz.io]      | [Tracetest]                      |
+| [Datadog]                 | [New Relic]    | [Uptrace]                        |
+| [Dynatrace]               | [OpenSearch]   |                                  |
 
 ## Contributing
 
@@ -88,6 +89,7 @@ For more information about the maintainer role, see the [community repository](h
 ### Approvers
 
 - [Cedric Ziel](https://github.com/cedricziel), Grafana Labs
+- [Shenoy Pratik](https://github.com/ps48), AWS OpenSearch
 
 For more information about the approver role, see the [community repository](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#approver).
 
@@ -117,6 +119,8 @@ For more information about the emeritus role, see the [community repository](htt
 [Axiom]: https://play.axiom.co/axiom-play-qf1k/dashboards/otel.traces.otel-demo-traces
 [Axoflow]: https://axoflow.com/opentelemetry-support-in-more-detail-in-axosyslog-and-syslog-ng/
 [Azure Data Explorer]: https://github.com/Azure/Azure-kusto-opentelemetry-demo
+[Causely]: https://github.com/causely-oss/otel-demo
+[ClickStack]: https://github.com/ClickHouse/opentelemetry-demo
 [Coralogix]: https://coralogix.com/blog/configure-otel-demo-send-telemetry-data-coralogix
 [Dash0]: https://github.com/dash0hq/opentelemetry-demo
 [Datadog]: https://docs.datadoghq.com/opentelemetry/guide/otel_demo_to_datadog
@@ -134,6 +138,7 @@ For more information about the emeritus role, see the [community repository](htt
 [New Relic]: https://github.com/newrelic/opentelemetry-demo
 [OpenSearch]: https://github.com/opensearch-project/opentelemetry-demo
 [Oracle]: https://github.com/oracle-quickstart/oci-o11y-solutions/blob/main/knowledge-content/opentelemetry-demo
+[Parseable]: https://www.parseable.com/blog/open-telemetry-demo-with-parseable-a-complete-observability-setup
 [Sentry]: https://github.com/getsentry/opentelemetry-demo
 [ServiceNow Cloud Observability]: https://docs.lightstep.com/otel/quick-start-operator#send-data-from-the-opentelemetry-demo
 [SigNoz]: https://signoz.io/blog/opentelemetry-demo/
